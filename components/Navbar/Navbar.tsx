@@ -24,7 +24,7 @@ export const Navbar = () => {
       {
         Object.keys(options).map((object,index)=>{
             return(
-                <div className="mr-[50px] text-[16px] text-textBlue">
+                <div key={index} className="mr-[50px] text-[16px] text-textBlue">
                     {object}
                 </div>
             )
