@@ -116,9 +116,9 @@ const Home: NextPage = () => {
         <div className="flex flex-col mt-[179px] justify-center items-center">
           <img
             style={{
-              height: "70px",
-              width: "70px",
-              objectFit: "cover",
+              height: "60px",
+              width: "60px",
+             
             }}
             className="rounded-[50%] p-[10px] bg-innerBg"
             src={
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                   <div className="flex flex-row ml-[25px]">
                     {selectedToken && (
                       <img
-                        className="mr-[5px]"
+                        className="mr-[5px] h-[35px] w-[35px]"
                         src={
                           "/tokens/" +
                           nameToSymbol[selectedToken].toLowerCase() +
