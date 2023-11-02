@@ -123,7 +123,7 @@ const Home: NextPage = () => {
             className="rounded-[50%] p-[10px] bg-innerBg"
             src={
               selectedToken
-                ? "/tokens/" + nameToSymbol[selectedToken] + ".svg"
+                ? "/tokens/" + nameToSymbol[selectedToken].toLowerCase() + ".svg"
                 : "/tokens/eth.svg"
             }
             alt="No Image"
