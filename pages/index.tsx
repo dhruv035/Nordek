@@ -232,6 +232,7 @@ const Home: NextPage = () => {
                   filteredData.map((name, index) => {
                     return (
                       <div
+                      key={index}
                       
                         onClick={() => {
                           setSelectedToken(name);
