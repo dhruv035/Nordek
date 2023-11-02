@@ -61,6 +61,7 @@ const Home: NextPage = () => {
   useEffect(() => {
     if (!selectedToken) return;
     wssSetup();
+    tokenRef.current=selectedToken;
     return () => {
       socket.close();
     };
